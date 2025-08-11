@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-banner {
+  background-image: url('https://via.placeholder.com/1200x300?text=Ayurvedic+Banner');
+  background-size: cover;
+  background-position: center;
+  color: #0a0a0a;
+  padding: 80px 20px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Smooth fade-in base for AOS */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
